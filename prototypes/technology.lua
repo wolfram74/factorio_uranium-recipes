@@ -5,28 +5,12 @@ data:extend(
     name = "nuclear-science",
     icon_size = 128,
     icon = "__uranium-recipes__/graphics/uranium-science.png",
-	prerequisites = {"nuclear-power"},
+	prerequisites = {"uranium-ammo"},
     effects =
     {
-	  {
-        type = "unlock-recipe",
-        recipe = "science-pack-1-plus"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "science-pack-2-plus"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "science-pack-3-plus"
-      },
       {
         type = "unlock-recipe",
         recipe = "military-science-pack-plus"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "production-science-pack-plus"
       },
       {
         type = "unlock-recipe",
@@ -35,7 +19,7 @@ data:extend(
     },
     unit =
     {
-      count = 500,
+      count = 50,
       ingredients =
       {
         {"science-pack-1", 1},
